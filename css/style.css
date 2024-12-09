@@ -206,6 +206,15 @@ li:hover {
 .item p {
   font-size: 0.875rem;
 }
+
+/* CATS */
+.grid-cats {
+  display: grid;
+  gap: 2rem 1.5rem;
+  grid-template-columns: repeat(auto, 1fr);
+  text-align: center;
+}
+
 /* CONTACT
 ------------------------------- */
 .cover-contact {
@@ -375,15 +384,9 @@ li:hover {
   .cover-cats {
     background-image: url(../images/cover-cats-l.webp);
   }
-  .grid {
+  .grid-cats {
     gap: 3rem 2rem;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .item img {
-    margin-bottom: 0.5rem;
-  }
-  .item p {
-    font-size: 1rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   /* CONTACT */
